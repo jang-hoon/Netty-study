@@ -7,7 +7,7 @@ import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class Example1_1 {
+public class Example1_1_basic {
 
 	public static void main(String[] args) throws IOException {
 		ServerSocket serverSocket = null;
