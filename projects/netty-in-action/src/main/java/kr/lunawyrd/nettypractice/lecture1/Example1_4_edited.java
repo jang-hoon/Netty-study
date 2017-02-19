@@ -12,6 +12,13 @@ import io.netty.channel.ChannelFutureListener;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioSocketChannel;
 
+/**
+ * 
+ * Edited code in example1-4 of lecture1 
+ * 
+ * @author	Hoon Jang
+ * @since	2017.01.16
+ */
 public class Example1_4_edited {
 	
 	public static void main(String[] args) {

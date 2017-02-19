@@ -14,7 +14,6 @@ import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.util.CharsetUtil;
 
 public class CommandClient extends Thread{
-
 	private final String ip;
 	private final int port;
 	

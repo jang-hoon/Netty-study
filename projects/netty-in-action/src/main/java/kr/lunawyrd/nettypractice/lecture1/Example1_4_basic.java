@@ -8,11 +8,11 @@ import io.netty.buffer.Unpooled;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelFutureListener;
-import io.netty.channel.ChannelInboundHandlerAdapter;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioSocketChannel;
 
 public class Example1_4_basic {
+	
 	public static void main(String[] args) {
 		Channel channel = new NioSocketChannel();
 		new NioEventLoopGroup().register(channel);
@@ -30,12 +30,5 @@ public class Example1_4_basic {
 				}
 			}
 		});
-		
-		new ChannelInboundHandlerAdapter(){
-			
-			
-			
-		};
 	}
-	
 }

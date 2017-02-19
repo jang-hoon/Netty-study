@@ -17,5 +17,4 @@ public class ByteBufToStringDecoder extends ByteToMessageDecoder{
 		
 		
 	}
-
 }

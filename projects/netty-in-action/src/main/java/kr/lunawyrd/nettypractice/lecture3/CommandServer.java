@@ -12,7 +12,6 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 
 public class CommandServer {
-
 	private final int port;
 	
 	public CommandServer(int port){

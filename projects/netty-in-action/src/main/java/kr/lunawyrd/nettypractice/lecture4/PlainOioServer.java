@@ -7,6 +7,7 @@ import java.net.Socket;
 import java.nio.charset.Charset;
 
 public class PlainOioServer {
+	
 	public void serve(int port) throws IOException{
 		final ServerSocket socket = new ServerSocket(port);
 		try{
